@@ -5,12 +5,12 @@ As part of my computer science research class during my junior year of high scho
 In order to quantify player ability, I utilized the videogame FIFA, which quantifies players through ratings based on their skill and physical attributes. I then created aggregated goalkeeper, defense, midfield, and offensive rating features for each team, which were calculated by averaging the player ratings within each position grouping. In order to quantify team formation, I created depth, defensive width, midfield width, and offensive width features for each team calculated based on each formation. For example, the formation 4-3-3, which consists of four defenders, three midfielders, and three attackers, would be represented by a depth feature of three as there are three discrete sections of players, a defensive width feature with of four as there are four defenders, a midfield width of three as there are three midfielders, and an offensive width of three as there are three attackers. 
 
 In order to represent an individual soccer match, I created nine features between the two teams. 
-1. NET DEPTH: calculated by subtracting the away team’s depth from the home team’s depth. 
-2. NET DEFENSIVE RATING: calculated by subtracting the away team’s offensive rating from the home team’s offensive rating
-3. NET MIDFIELD RATING: calculated by subtracting the away team’s midfield rating from the home team’s midfield rating
-4. NET OFFENSIVE RATING: calculated by subtracting the away team’s defensive rating from the home team’s offensive rating
-5. HOME GOALKEEPER RATING: the rating of the home team's goalkeeper rating
-6. AWAY GOALKEEPER RATING: the rating of the away team's goalkeeper rating
+1. NET DEFENSIVE RATING: calculated by subtracting the away team’s offensive rating from the home team’s offensive rating
+2. NET MIDFIELD RATING: calculated by subtracting the away team’s midfield rating from the home team’s midfield rating
+3. NET OFFENSIVE RATING: calculated by subtracting the away team’s defensive rating from the home team’s offensive rating
+4. HOME GOALKEEPER RATING: the rating of the home team's goalkeeper rating
+5. AWAY GOALKEEPER RATING: the rating of the away team's goalkeeper rating
+6. NET DEPTH: calculated by subtracting the away team’s depth from the home team’s depth. 
 7. NET DEFENSIVE WIDTH: calculated by subtracting the away team’s offensive width from the home team’s defensive width
 8. NET MIDFIELD WIDTH: calculated by subtracting the away team’s midfield width from the home team’s midfield width
 9. NET OFFENSIVE WIDTH: calculated by subtracting the away team’s defensive width from the home team’s offensive width
