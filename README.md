@@ -1,4 +1,4 @@
-# Soccer Match Prediction Model
+# Predictive Soccer Analytics Model
 
 As part of my computer science research class during my junior year of high school, I created a machine learning model to predict the outcomes of soccer matches based on team lineup and formation data. At a high level, I endeavored to quantify team ability and formation in order to predict whether they would win, draw, or lose a match against another team. 
 
